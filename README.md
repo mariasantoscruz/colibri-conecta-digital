@@ -1,8 +1,27 @@
-# Welcome to your Lovable project
+# Colibrí - Asociación Salteña Síndrome de Down
 
-## Project info
+A bilingual (Spanish-English) website for Colibrí, a non-profit organization in Salta, Argentina, dedicated to supporting people with Down syndrome and their families through inclusion, education, and community programs.
 
-**URL**: https://lovable.dev/projects/af15fd71-22aa-4177-b920-de63f024e648
+## About Colibrí
+
+Founded in 1995, Colibrí works tirelessly for the inclusion, education and joy of people with trisomy 21. Through family support, inclusive education programs, employment initiatives, and community events, we build a more inclusive society.
+
+## Website Features
+
+- **Bilingual**: Full Spanish and English support
+- **Responsive**: Mobile-first design for all devices
+- **Accessible**: High contrast colors and semantic HTML
+- **SEO Optimized**: Proper meta tags and structured content
+
+## Pages
+
+- **Home**: Welcome and mission overview
+- **About Us**: History, mission, vision, and values
+- **Our Work**: Five key program areas
+- **Get Involved**: Collaboration opportunities
+- **Donate**: Support our mission
+- **News & Events**: Latest activities and updates
+- **Contact**: Location, hours, and contact information
 
 ## How can I edit this code?
 
