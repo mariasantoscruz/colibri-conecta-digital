@@ -19,7 +19,6 @@ const Navigation = () => {
     { path: '/work', label: t('nav.work') },
     { path: '/collaborate', label: t('nav.collaborate') },
     { path: '/donate', label: t('nav.donate') },
-    { path: '/news', label: t('nav.news') },
     { path: '/contact', label: t('nav.contact') },
   ];
 

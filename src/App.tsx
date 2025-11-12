@@ -11,7 +11,6 @@ import About from "./pages/About";
 import Work from "./pages/Work";
 import Collaborate from "./pages/Collaborate";
 import Donate from "./pages/Donate";
-import News from "./pages/News";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -33,7 +32,6 @@ const App = () => (
                 <Route path="/work" element={<Work />} />
                 <Route path="/collaborate" element={<Collaborate />} />
                 <Route path="/donate" element={<Donate />} />
-                <Route path="/news" element={<News />} />
                 <Route path="/contact" element={<Contact />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
