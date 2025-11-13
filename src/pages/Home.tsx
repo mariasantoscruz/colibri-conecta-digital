@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Heart, Users, BookOpen, ArrowRight } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
-import heroImage from '@/assets/hero-education.jpg';
+import heroImage from '@/assets/community-event.jpg';
 import familiesImage from '@/assets/families-community.jpg';
 
 const Home = () => {
