@@ -3,7 +3,7 @@ import { Users, Sparkles, GraduationCap, Briefcase, BookOpen } from 'lucide-reac
 import { useLanguage } from '@/contexts/LanguageContext';
 import educationImage from '@/assets/hero-education.jpg';
 import employmentImage from '@/assets/employment-support.jpg';
-import socialImage from '@/assets/social-activities.jpg';
+import identityCommitteeImage from '@/assets/identity-committee.jpg';
 import familySupportImage from '@/assets/family-support-event.jpg';
 
 const Work = () => {
@@ -20,7 +20,7 @@ const Work = () => {
     },
     {
       icon: Sparkles,
-      image: socialImage,
+      image: identityCommitteeImage,
       titleEs: 'Comité de Identificación',
       titleEn: 'Identity Committee',
       descEs: 'Creamos espacios donde las personas con síndrome de Down son protagonistas. Organizamos talleres, campamentos, bailes y celebraciones que fortalecen la identidad, la autonomía y la vida social. Cada actividad es una oportunidad para crecer, divertirse y hacer amigos.',
