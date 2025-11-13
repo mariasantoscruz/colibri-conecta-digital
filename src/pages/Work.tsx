@@ -15,7 +15,7 @@ const Work = () => {
       image: familySupportImage,
       titleEs: 'Apoyo a las Familias',
       titleEn: 'Family Support',
-      descEs: 'Acompañamos a padres, madres, hermanos y abuelos desde el momento del diagnóstico. Ofrecemos espacios de contención, información y apoyo mutuo. Nuestros comités de familias se reúnen regularmente para compartir experiencias y fortalecer lazos.',
+      descEs: 'Acompañamos a familias desde el momento del diagnóstico, brindando contención, orientación y apoyo emocional. A través de nuestros comités de mamás y papás "nuevitos", de hermanos y de abuelos, generamos espacios para compartir experiencias, fortalecer vínculos y construir juntos una red de acompañamiento.',
       descEn: 'We accompany parents, siblings, and grandparents from the moment of diagnosis. We offer spaces for support, information and mutual aid. Our family committees meet regularly to share experiences and strengthen bonds.',
     },
     {
