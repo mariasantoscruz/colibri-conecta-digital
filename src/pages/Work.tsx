@@ -4,6 +4,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import educationImage from '@/assets/hero-education.jpg';
 import employmentImage from '@/assets/employment-support.jpg';
 import socialImage from '@/assets/social-activities.jpg';
+import familySupportImage from '@/assets/family-support-event.jpg';
 
 const Work = () => {
   const { language } = useLanguage();
@@ -11,7 +12,7 @@ const Work = () => {
   const workAreas = [
     {
       icon: Users,
-      image: null,
+      image: familySupportImage,
       titleEs: 'Apoyo a las Familias',
       titleEn: 'Family Support',
       descEs: 'Acompañamos a padres, madres, hermanos y abuelos desde el momento del diagnóstico. Ofrecemos espacios de contención, información y apoyo mutuo. Nuestros comités de familias se reúnen regularmente para compartir experiencias y fortalecer lazos.',
