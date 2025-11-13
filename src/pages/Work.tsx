@@ -31,7 +31,7 @@ const Work = () => {
       image: educationImage,
       titleEs: 'Educación Inclusiva',
       titleEn: 'Inclusive Education',
-      descEs: 'Trabajamos por una educación verdaderamente inclusiva a través del proyecto "Educación para todos y todas". Capacitamos docentes, acompañamos trayectorias educativas y promovemos prácticas pedagógicas que respetan la diversidad y potencian las capacidades de cada estudiante.',
+      descEs: "A través del proyecto 'Educación para todos y todas', pionero en Salta, nuestro equipo brinda apoyo y seguimiento en distintos niveles educativos (desde maternal hasta terciario), así como en formación profesional. El objetivo es desarrollar itinerarios que faciliten la futura inclusión laboral.",
       descEn: 'We work for truly inclusive education through the project "Education for Everyone". We train teachers, accompany educational paths and promote pedagogical practices that respect diversity and enhance each student\'s capabilities.',
     },
     {
