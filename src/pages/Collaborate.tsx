@@ -1,32 +1,12 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Building2, HandHeart, UserPlus, Heart, ShoppingBag } from 'lucide-react';
+import { HandHeart, UserPlus, Heart, ShoppingBag } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 const Collaborate = () => {
   const { language } = useLanguage();
 
-  const forCompanies = [
-    {
-      titleEs: 'Inclusión Laboral',
-      titleEn: 'Employment Inclusion',
-      descEs: 'Contratá personas con síndrome de Down y construí equipos diversos.',
-      descEn: 'Hire people with Down syndrome and build diverse teams.',
-    },
-    {
-      titleEs: 'Responsabilidad Social',
-      titleEn: 'Social Responsibility',
-      descEs: 'Colaboraciones y alianzas estratégicas para el desarrollo social.',
-      descEn: 'Collaborations and strategic alliances for social development.',
-    },
-    {
-      titleEs: 'Capacitación Corporativa',
-      titleEn: 'Corporate Training',
-      descEs: 'Talleres de sensibilización sobre diversidad e inclusión.',
-      descEn: 'Awareness workshops on diversity and inclusion.',
-    },
-  ];
 
   const forCommunity = [
     {
@@ -68,47 +48,7 @@ const Collaborate = () => {
         </div>
       </section>
 
-      {/* For Companies */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
-              <Building2 className="h-8 w-8 text-primary" />
-            </div>
-            <h2 className="text-3xl font-bold text-primary mb-4">
-              {language === 'es' ? 'Para Empresas' : 'For Companies'}
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              {language === 'es'
-                ? 'Trabajá con nosotros para construir una empresa más inclusiva y socialmente responsable.'
-                : 'Work with us to build a more inclusive and socially responsible company.'}
-            </p>
-          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-8">
-            {forCompanies.map((item, index) => (
-              <Card key={index} className="border-0 shadow-md">
-                <CardContent className="pt-6 text-center">
-                  <h3 className="text-lg font-semibold mb-2 text-primary">
-                    {language === 'es' ? item.titleEs : item.titleEn}
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    {language === 'es' ? item.descEs : item.descEn}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-
-          <div className="text-center">
-            <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
-              <Link to="/contact">
-                {language === 'es' ? 'Contactanos' : 'Contact Us'}
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
 
       {/* For Community */}
       <section className="py-16 bg-warm-cream">
