@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Heart, Users, BookOpen, ArrowRight } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import heroImage from '@/assets/community-event.jpg';
-import familiesImage from '@/assets/families-community.jpg';
+import familiesImage from '@/assets/community-collage.jpg';
 
 const Home = () => {
   const { t, language } = useLanguage();
