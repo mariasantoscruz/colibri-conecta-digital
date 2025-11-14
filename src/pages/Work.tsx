@@ -5,6 +5,7 @@ import educationImage from '@/assets/education-inclusive.jpg';
 import employmentImage from '@/assets/employment-support-new.jpg';
 import identityCommitteeImage from '@/assets/identity-committee.jpg';
 import familySupportImage from '@/assets/family-support-event.jpg';
+import trainingLibraryImage from '@/assets/training-library.jpg';
 
 const Work = () => {
   const { language } = useLanguage();
@@ -44,7 +45,7 @@ const Work = () => {
     },
     {
       icon: BookOpen,
-      image: null,
+      image: trainingLibraryImage,
       titleEs: 'Capacitación y Biblioteca',
       titleEn: 'Training and Library',
       descEs: 'Ofrecemos cursos, talleres y jornadas de capacitación para familias, profesionales y la comunidad. Nuestra biblioteca cuenta con material especializado disponible para consulta. Además, realizamos campañas de concientización en escuelas y espacios públicos.',
