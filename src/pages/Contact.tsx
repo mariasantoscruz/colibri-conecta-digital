@@ -99,7 +99,7 @@ const Contact = () => {
                   </h3>
                   <div className="flex space-x-4">
                     <a
-                      href="https://instagram.com"
+                      href="https://www.instagram.com/asociacioncolibri/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center space-x-2 px-4 py-2 bg-accent hover:bg-primary hover:text-primary-foreground rounded-lg transition-colors"
@@ -109,7 +109,7 @@ const Contact = () => {
                       <span className="font-medium">Instagram</span>
                     </a>
                     <a
-                      href="https://facebook.com"
+                      href="https://www.facebook.com/p/Asociaci%C3%B3n-Colibr%C3%AD-Salta-61552732780864/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center space-x-2 px-4 py-2 bg-accent hover:bg-primary hover:text-primary-foreground rounded-lg transition-colors"
@@ -140,41 +140,6 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Hours Section */}
-      <section className="py-16 bg-warm-cream">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-8 text-primary">
-              {language === 'es' ? 'Horarios de Atención' : 'Office Hours'}
-            </h2>
-            <Card className="border-0 shadow-lg">
-              <CardContent className="p-8">
-                <div className="space-y-4 text-lg">
-                  <div className="flex justify-between items-center pb-4 border-b border-border">
-                    <span className="font-medium">
-                      {language === 'es' ? 'Lunes a Viernes' : 'Monday to Friday'}
-                    </span>
-                    <span className="text-muted-foreground">9:00 - 18:00</span>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="font-medium">
-                      {language === 'es' ? 'Sábados y Domingos' : 'Saturday and Sunday'}
-                    </span>
-                    <span className="text-muted-foreground">
-                      {language === 'es' ? 'Cerrado' : 'Closed'}
-                    </span>
-                  </div>
-                </div>
-                <p className="mt-6 text-sm text-muted-foreground italic">
-                  {language === 'es'
-                    ? '* Para eventos especiales y talleres, consultá nuestras redes sociales o contactanos.'
-                    : '* For special events and workshops, check our social media or contact us.'}
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
