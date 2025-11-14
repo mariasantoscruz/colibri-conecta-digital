@@ -104,11 +104,28 @@ const Donate = () => {
                   <h3 className="text-xl font-semibold mb-4 text-primary">
                     {language === 'es' ? 'Formas de Donar' : 'Ways to Donate'}
                   </h3>
-                  <p className="text-muted-foreground mb-6">
-                    {language === 'es'
-                      ? 'Podés hacer tu donación a través de transferencia bancaria o contactarnos para otras opciones.'
-                      : 'You can make your donation via bank transfer or contact us for other options.'}
-                  </p>
+                  
+                  <div className="text-left space-y-4 mb-6">
+                    <h4 className="font-semibold text-lg text-primary">
+                      {language === 'es' ? 'Transferencia Bancaria (CBU)' : 'Bank Transfer (CBU)'}
+                    </h4>
+                    <div className="bg-background/50 rounded-md p-4 space-y-2">
+                      <div>
+                        <span className="font-medium">CBU:</span>
+                        <p className="text-muted-foreground font-mono">2850100640094040069118</p>
+                      </div>
+                      <div>
+                        <span className="font-medium">Alias:</span>
+                        <p className="text-muted-foreground">GOLFO.CAMISA.BLANCO</p>
+                      </div>
+                      <div>
+                        <p className="text-sm text-muted-foreground mt-2">
+                          COLIBRI ASOC SALTENA SINDROME DE DOWN Y OTRAS DISCAPACIDADES INT
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
                   <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
                     <Link to="/contact">
                       {language === 'es' ? 'Contactanos para donar' : 'Contact us to donate'}
