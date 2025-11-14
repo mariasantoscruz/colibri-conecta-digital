@@ -1,8 +1,8 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Users, Sparkles, GraduationCap, Briefcase, BookOpen } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
-import educationImage from '@/assets/hero-education.jpg';
-import employmentImage from '@/assets/employment-support.jpg';
+import educationImage from '@/assets/education-inclusive.jpg';
+import employmentImage from '@/assets/employment-support-new.jpg';
 import identityCommitteeImage from '@/assets/identity-committee.jpg';
 import familySupportImage from '@/assets/family-support-event.jpg';
 
