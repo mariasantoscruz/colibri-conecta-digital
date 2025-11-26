@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Heart, DollarSign, Users, Target } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
+import donationQR from '@/assets/donation-qr.png';
 
 const Donate = () => {
   const { language } = useLanguage();
@@ -105,24 +106,39 @@ const Donate = () => {
                     {language === 'es' ? 'Formas de Donar' : 'Ways to Donate'}
                   </h3>
                   
-                  <div className="text-left space-y-4 mb-6">
-                    <h4 className="font-semibold text-lg text-primary">
-                      {language === 'es' ? 'Transferencia Bancaria (CBU)' : 'Bank Transfer (CBU)'}
-                    </h4>
-                    <div className="bg-background/50 rounded-md p-4 space-y-2">
-                      <div>
-                        <span className="font-medium">CBU:</span>
-                        <p className="text-muted-foreground font-mono">2850100640094040069118</p>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
+                    {/* Bank Transfer Details */}
+                    <div className="text-left space-y-4">
+                      <h4 className="font-semibold text-lg text-primary">
+                        {language === 'es' ? 'Transferencia Bancaria (CBU)' : 'Bank Transfer (CBU)'}
+                      </h4>
+                      <div className="bg-background/50 rounded-md p-4 space-y-2">
+                        <div>
+                          <span className="font-medium">CBU:</span>
+                          <p className="text-muted-foreground font-mono">2850100640094040069118</p>
+                        </div>
+                        <div>
+                          <span className="font-medium">Alias:</span>
+                          <p className="text-muted-foreground">GOLFO.CAMISA.BLANCO</p>
+                        </div>
+                        <div>
+                          <p className="text-sm text-muted-foreground mt-2">
+                            COLIBRI ASOC SALTENA SINDROME DE DOWN Y OTRAS DISCAPACIDADES INT
+                          </p>
+                        </div>
                       </div>
-                      <div>
-                        <span className="font-medium">Alias:</span>
-                        <p className="text-muted-foreground">GOLFO.CAMISA.BLANCO</p>
-                      </div>
-                      <div>
-                        <p className="text-sm text-muted-foreground mt-2">
-                          COLIBRI ASOC SALTENA SINDROME DE DOWN Y OTRAS DISCAPACIDADES INT
-                        </p>
-                      </div>
+                    </div>
+                    
+                    {/* QR Code */}
+                    <div className="flex flex-col items-center justify-center">
+                      <p className="text-sm font-medium text-primary mb-3">
+                        {language === 'es' ? 'Escaneá el código QR' : 'Scan the QR code'}
+                      </p>
+                      <img 
+                        src={donationQR} 
+                        alt="QR code for donations" 
+                        className="w-48 h-48 object-contain bg-white p-2 rounded-lg shadow-md"
+                      />
                     </div>
                   </div>
                   
