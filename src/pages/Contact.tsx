@@ -58,8 +58,8 @@ const Contact = () => {
                         {language === 'es' ? 'Teléfonos' : 'Phones'}
                       </h3>
                       <div className="space-y-1 text-muted-foreground">
-                        <a href="tel:+543875891184" className="block hover:text-primary transition-colors">
-                          +54 387 589 1184
+                        <a href="tel:+543872260906" className="block hover:text-primary transition-colors">
+                          +54 387 226 0906
                         </a>
                         <a href="tel:+543874061906" className="block hover:text-primary transition-colors">
                           +54 387 406 1906
